@@ -1,0 +1,66 @@
+game_structure:
+  total_routes: 10
+  estimated_playtime: "52+ hours"
+  common_route_length: "8-10 hours"
+  individual_route_length: "4-6 hours each"
+
+original_routes:
+  shiroha_route:
+    unlock_condition: "complete_common_route"
+    difficulty: "medium"
+    emotional_impact: "high"
+    key_scenes: ["butterfly_garden", "festival_night", "final_goodbye"]
+    
+  ao_route:
+    unlock_condition: "complete_common_route"
+    difficulty: "hard"
+    emotional_impact: "very_high"
+    key_scenes: ["memory_fragments", "time_loop_revelation", "true_ending"]
+    
+  kamome_route:
+    unlock_condition: "complete_common_route"
+    difficulty: "easy"
+    emotional_impact: "medium"
+    key_scenes: ["tennis_match", "confession_scene", "summer_promise"]
+    
+  tsumugi_route:
+    unlock_condition: "complete_other_main_routes"
+    difficulty: "very_hard"
+    emotional_impact: "extremely_high"
+    key_scenes: ["time_manipulation", "sacrifice_choice", "eternal_summer"]
+
+reflection_blue_additions:
+  shiki_route:
+    unlock_condition: "complete_common_route_rb"
+    difficulty: "hard"
+    emotional_impact: "high"
+    new_content: "full_route"
+    key_scenes: ["investigation_begins", "truth_uncovered", "resolution"]
+    
+  miki_route:
+    unlock_condition: "complete_common_route_rb"
+    difficulty: "medium"
+    emotional_impact: "medium"
+    upgrade_from: "sub_character"
+    key_scenes: ["art_exhibition", "creative_breakthrough", "mutual_inspiration"]
+    
+  shizuku_route:
+    unlock_condition: "complete_common_route_rb"
+    difficulty: "medium"
+    emotional_impact: "high"
+    upgrade_from: "sub_character" 
+    key_scenes: ["family_obligations", "personal_desires", "finding_balance"]
+    
+  umi_route:
+    unlock_condition: "special_conditions_met"
+    difficulty: "easy"
+    emotional_impact: "sweet"
+    new_content: "full_route"
+    key_scenes: ["beach_discovery", "innocent_moments", "summer_growth"]
+
+additional_content:
+  new_common_scenes: 25
+  expanded_side_character_interactions: true
+  enhanced_daily_life_events: true
+  additional_cgs: 50+
+  new_music_tracks: 15

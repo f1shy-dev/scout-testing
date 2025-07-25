@@ -1,0 +1,16 @@
+location_name,location_type,accessibility,key_events,atmospheric_description,unlocked_by_default
+Torishirojima Beach,outdoor,always_accessible,first_meetings_summer_activities,Pristine white sand beach with crystal clear waters,true
+School Building,indoor,daytime_only,classes_club_activities,Traditional Japanese school with old wooden floors,true
+Lighthouse,landmark,evening_accessible,romantic_scenes_revelations,Tall white lighthouse overlooking the ocean,false
+Forest Path,outdoor,daytime_preferred,mystery_encounters,Dense green forest with dappled sunlight,true
+Shrine Grounds,spiritual,always_accessible,festivals_spiritual_moments,Ancient shrine with red torii gates,true
+Harbor District,urban,always_accessible,daily_life_character_interactions,Busy port area with fishing boats,true
+Abandoned Observatory,mystery,night_only,supernatural_events,Old building with telescope still intact,false
+Festival Grounds,event,festival_only,summer_festival_scenes,Open area decorated for celebrations,false
+Hidden Cave,secret,special_conditions,rare_character_moments,Mysterious cave behind waterfall,false
+Grandmother's House,indoor,always_accessible,backstory_quiet_moments,Traditional Japanese home with garden,true
+Shopping District,urban,daytime_only,daily_errands_character_bonding,Small town shops and cafes,true
+Cliff Overlook,scenic,always_accessible,contemplative_scenes,High cliff with panoramic island view,false
+Underground Passages,mystery,special_routes_only,secret_revelations,Hidden tunnels beneath the island,false
+Memorial Garden,peaceful,always_accessible,remembrance_scenes,Beautiful garden dedicated to memories,false
+Time Nexus,supernatural,tsumugi_route_only,climactic_scenes,Mystical location where time converges,false

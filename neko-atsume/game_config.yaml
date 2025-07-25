@@ -1,0 +1,42 @@
+game_settings:
+  version: "2.1.0"
+  language: "en"
+  auto_save: true
+  notification_enabled: true
+  
+currency:
+  fish:
+    daily_bonus: 5
+    video_ad_reward: 3
+    max_storage: 99999
+  gold_fish:
+    daily_login_streak_reward: 1
+    purchase_only: true
+    max_storage: 999
+
+yard_settings:
+  food_bowls: 2
+  toy_spots: 6
+  max_cats_simultaneous: 8
+  remodel_options:
+    - "rustic_style"
+    - "modern_style" 
+    - "zen_garden"
+    - "cafe_style"
+
+cat_mechanics:
+  visit_duration_minutes: 
+    min: 15
+    max: 180
+  rare_cat_appearance_rate: 0.05
+  memento_chance: 0.1
+  
+photo_album:
+  max_photos_per_cat: 10
+  wallpaper_export: true
+  share_functionality: true
+
+shop_refresh:
+  food_restock_hours: 3
+  new_items_weekly: true
+  seasonal_items: true

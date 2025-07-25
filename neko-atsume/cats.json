@@ -1,0 +1,84 @@
+{
+  "regular_cats": [
+    {
+      "id": 1,
+      "name": "Snowball",
+      "color": "white",
+      "personality": "calm",
+      "favorite_toy": "cardboard_box",
+      "visit_frequency": "high",
+      "memento": "white_dandelion"
+    },
+    {
+      "id": 2,
+      "name": "Shadow",
+      "color": "black",
+      "personality": "mysterious",
+      "favorite_toy": "cat_tunnel",
+      "visit_frequency": "medium",
+      "memento": "black_feather"
+    },
+    {
+      "id": 3,
+      "name": "Sunny",
+      "color": "orange",
+      "personality": "energetic",
+      "favorite_toy": "ball_of_yarn",
+      "visit_frequency": "high",
+      "memento": "sunny_flower"
+    },
+    {
+      "id": 4,
+      "name": "Lexy",
+      "color": "tabby",
+      "personality": "curious",
+      "favorite_toy": "scratching_post",
+      "visit_frequency": "high",
+      "memento": "torn_photo"
+    },
+    {
+      "id": 5,
+      "name": "Pumpkin",
+      "color": "orange_white",
+      "personality": "lazy",
+      "favorite_toy": "cushion",
+      "visit_frequency": "high",
+      "memento": "small_pumpkin"
+    }
+  ],
+  "rare_cats": [
+    {
+      "id": 101,
+      "name": "Tubbs",
+      "color": "gray_white",
+      "personality": "glutton",
+      "required_food": "deluxe_tuna_bits",
+      "required_toy": "giant_cushion",
+      "visit_frequency": "low",
+      "memento": "commemorative_photo",
+      "special_trait": "eats_all_food"
+    },
+    {
+      "id": 102,
+      "name": "Ms. Fortune",
+      "color": "calico",
+      "personality": "elegant",
+      "required_food": "ritzy_bitz",
+      "required_toy": "luxurious_hammock",
+      "visit_frequency": "very_low",
+      "memento": "golden_coin",
+      "special_trait": "brings_extra_fish"
+    },
+    {
+      "id": 103,
+      "name": "Peaches",
+      "color": "peach",
+      "personality": "sweet",
+      "required_food": "deluxe_tuna_bits",
+      "required_toy": "bureau_with_pot",
+      "visit_frequency": "low",
+      "memento": "fresh_peach",
+      "special_trait": "hides_in_pot"
+    }
+  ]
+}

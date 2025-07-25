@@ -1,0 +1,12 @@
+name,cost_fish,cost_gold,rarity,attracts_rare_cats,description
+Cardboard Box,40,0,common,false,A simple cardboard box that cats love to hide in
+Ball of Yarn,30,0,common,false,Classic cat toy that encourages playful behavior
+Scratching Post,80,0,common,false,Essential for cat claw maintenance
+Cat Tunnel,120,0,common,false,Collapsible tunnel for adventurous cats
+Cushion,24,0,common,false,Soft and comfortable resting spot
+Giant Cushion,500,0,rare,true,Extra large cushion perfect for bigger cats
+Luxurious Hammock,750,0,rare,true,Premium hammock for the most discerning cats
+Bureau with Pot,900,0,rare,true,Elegant furniture piece with hidden surprises
+Cat Metropolis,0,40,premium,true,Multi-level cat tower with various activities
+Glass Vase,0,35,premium,true,Delicate decoration that some cats find irresistible
+Silk Crepe Pillow,0,22,premium,false,Ultra-soft pillow made from finest materials

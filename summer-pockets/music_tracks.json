@@ -1,0 +1,110 @@
+{
+  "soundtrack_info": {
+    "composer": "Shinji Orito, Magome Togoshi, ryo",
+    "total_tracks": 47,
+    "reflection_blue_new_tracks": 15,
+    "genre": "emotional_instrumental_piano_orchestral"
+  },
+  "main_themes": [
+    {
+      "track_name": "Summer Pockets",
+      "usage": "main_theme",
+      "mood": "nostalgic_hopeful",
+      "instruments": ["piano", "strings", "acoustic_guitar"],
+      "associated_scenes": ["opening", "credits", "emotional_moments"]
+    },
+    {
+      "track_name": "Shiroha",
+      "usage": "character_theme",
+      "mood": "bright_energetic",
+      "instruments": ["piano", "flute", "light_percussion"],
+      "associated_scenes": ["shiroha_daily_life", "cheerful_moments"]
+    },
+    {
+      "track_name": "Reflection",
+      "usage": "story_theme",
+      "mood": "mysterious_contemplative",
+      "instruments": ["piano", "ambient_synth", "soft_strings"],
+      "associated_scenes": ["memory_sequences", "revelation_moments"]
+    }
+  ],
+  "atmospheric_tracks": [
+    {
+      "track_name": "Island Breeze",
+      "usage": "background_ambience",
+      "mood": "peaceful_summery",
+      "location": "beach_scenes",
+      "time_of_day": "day"
+    },
+    {
+      "track_name": "Evening Waves", 
+      "usage": "background_ambience",
+      "mood": "calm_romantic",
+      "location": "beach_scenes",
+      "time_of_day": "evening"
+    },
+    {
+      "track_name": "School Days",
+      "usage": "location_theme",
+      "mood": "everyday_youthful",
+      "location": "school_building",
+      "time_of_day": "day"
+    },
+    {
+      "track_name": "Festival Night",
+      "usage": "event_theme",
+      "mood": "celebratory_magical",
+      "location": "festival_grounds",
+      "time_of_day": "night"
+    }
+  ],
+  "emotional_tracks": [
+    {
+      "track_name": "Farewell Summer",
+      "usage": "climax_theme",
+      "mood": "heartbreaking_beautiful",
+      "emotional_weight": "very_high",
+      "typical_usage": "route_endings"
+    },
+    {
+      "track_name": "Eternal Moment",
+      "usage": "special_theme",
+      "mood": "transcendent_peaceful",
+      "emotional_weight": "extremely_high",
+      "typical_usage": "tsumugi_route_climax"
+    },
+    {
+      "track_name": "New Beginning",
+      "usage": "resolution_theme",
+      "mood": "hopeful_warm",
+      "emotional_weight": "high",
+      "typical_usage": "good_endings"
+    }
+  ],
+  "reflection_blue_additions": [
+    {
+      "track_name": "Shiki's Investigation",
+      "usage": "character_theme",
+      "mood": "mysterious_determined",
+      "associated_character": "kamiyama_shiki"
+    },
+    {
+      "track_name": "Canvas of Dreams",
+      "usage": "character_theme", 
+      "mood": "artistic_inspiring",
+      "associated_character": "nomura_miki"
+    },
+    {
+      "track_name": "Ocean Memories",
+      "usage": "character_theme",
+      "mood": "innocent_pure",
+      "associated_character": "kato_umi"
+    }
+  ],
+  "technical_info": {
+    "audio_format": "44.1kHz_16bit",
+    "total_duration": "3_hours_42_minutes",
+    "loop_points": "seamless_for_gameplay",
+    "dynamic_mixing": "adaptive_to_scene_emotion"
+  }
+}
