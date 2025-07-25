@@ -1,0 +1,55 @@
+{
+  "food_types": [
+    {
+      "name": "Thrifty Bitz",
+      "cost": 10,
+      "duration_minutes": 180,
+      "attraction_level": 1,
+      "description": "Basic cat food that attracts common cats",
+      "attracts_rare": false
+    },
+    {
+      "name": "Frisky Bitz", 
+      "cost": 30,
+      "duration_minutes": 240,
+      "attraction_level": 2,
+      "description": "Popular food that keeps cats happy longer",
+      "attracts_rare": false
+    },
+    {
+      "name": "Deluxe Tuna Bitz",
+      "cost": 80,
+      "duration_minutes": 360,
+      "attraction_level": 4,
+      "description": "Premium food that attracts rare cats",
+      "attracts_rare": true
+    },
+    {
+      "name": "Ritzy Bitz",
+      "cost": 140,
+      "duration_minutes": 480,
+      "attraction_level": 5,
+      "description": "Luxury food for the most discerning cats",
+      "attracts_rare": true
+    },
+    {
+      "name": "Bonito Bitz",
+      "cost": 50,
+      "duration_minutes": 300,
+      "attraction_level": 3,
+      "description": "Fish-flavored food with moderate appeal",
+      "attracts_rare": false
+    }
+  ],
+  "feeding_schedule": {
+    "recommended_frequency": "every_4_hours",
+    "optimal_food_combination": "high_end_left_basic_right",
+    "rare_cat_strategy": "deluxe_tuna_bitz_minimum"
+  },
+  "food_stats": {
+    "total_fish_spent_on_food": 2847,
+    "most_effective_food": "deluxe_tuna_bitz",
+    "least_effective_food": "thrifty_bitz",
+    "average_cats_per_feeding": 4.2
+  }
+}

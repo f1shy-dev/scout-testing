@@ -1,0 +1,118 @@
+{
+  "main_heroines": [
+    {
+      "name": "Shiroha Naruse",
+      "japanese_name": "鳴瀬白羽",
+      "age": 17,
+      "height": "154cm",
+      "birthday": "July 7",
+      "personality": ["cheerful", "energetic", "optimistic"],
+      "role": "main_heroine",
+      "route_type": "emotional_growth",
+      "key_themes": ["friendship", "dreams", "overcoming_past"],
+      "signature_item": "butterfly_hairpin",
+      "voice_actor": "Tamura Yukari"
+    },
+    {
+      "name": "Ao Sorakado",
+      "japanese_name": "空門蒼",
+      "age": 17,
+      "height": "158cm", 
+      "birthday": "August 31",
+      "personality": ["mysterious", "calm", "introspective"],
+      "role": "main_heroine",
+      "route_type": "supernatural_mystery",
+      "key_themes": ["memory", "time", "connection"],
+      "signature_item": "pendant_necklace",
+      "voice_actor": "Kawashima Rino"
+    },
+    {
+      "name": "Kamome Kushima",
+      "japanese_name": "久島鴎",
+      "age": 17,
+      "height": "161cm",
+      "birthday": "May 15", 
+      "personality": ["tsundere", "competitive", "caring"],
+      "role": "main_heroine",
+      "route_type": "romantic_comedy",
+      "key_themes": ["rivalry", "growth", "acceptance"],
+      "signature_item": "tennis_racket",
+      "voice_actor": "Akino Hana"
+    },
+    {
+      "name": "Tsumugi Wenders",
+      "japanese_name": "ツムギ・ウェンダース",
+      "age": 17,
+      "height": "152cm",
+      "birthday": "December 24",
+      "personality": ["gentle", "wise", "melancholic"],
+      "role": "main_heroine", 
+      "route_type": "philosophical_drama",
+      "key_themes": ["time_loops", "fate", "sacrifice"],
+      "signature_item": "pocket_watch",
+      "voice_actor": "Suzaki Aya"
+    }
+  ],
+  "reflection_blue_heroines": [
+    {
+      "name": "Kamiyama Shiki",
+      "japanese_name": "神山識",
+      "age": 17,
+      "height": "160cm",
+      "birthday": "October 10",
+      "personality": ["reserved", "analytical", "protective"],
+      "role": "new_heroine_rb",
+      "route_type": "mystery_thriller",
+      "key_themes": ["investigation", "truth", "justice"],
+      "signature_item": "notepad",
+      "voice_actor": "Itou Shizuka"
+    },
+    {
+      "name": "Nomura Miki",
+      "japanese_name": "野村美希",
+      "age": 16,
+      "height": "148cm",
+      "birthday": "March 3",
+      "personality": ["shy", "artistic", "determined"],
+      "role": "upgraded_heroine_rb",
+      "route_type": "artistic_journey",
+      "key_themes": ["creativity", "self_expression", "courage"],
+      "signature_item": "sketchbook",
+      "voice_actor": "Ogura Yui"
+    },
+    {
+      "name": "Mizuori Shizuku",
+      "japanese_name": "水織静久",
+      "age": 17,
+      "height": "156cm",
+      "birthday": "September 9",
+      "personality": ["studious", "responsible", "caring"],
+      "role": "upgraded_heroine_rb",
+      "route_type": "family_drama",
+      "key_themes": ["duty", "family", "personal_happiness"],
+      "signature_item": "student_handbook",
+      "voice_actor": "Hanazawa Kana"
+    },
+    {
+      "name": "Kato Umi",
+      "japanese_name": "加藤うみ",
+      "age": 15,
+      "height": "145cm",
+      "birthday": "June 21",
+      "personality": ["innocent", "curious", "pure"],
+      "role": "new_route_rb",
+      "route_type": "innocent_love",
+      "key_themes": ["first_love", "summer_memories", "growing_up"],
+      "signature_item": "seashell_collection",
+      "voice_actor": "Taketatsu Ayana"
+    }
+  ],
+  "protagonist": {
+    "name": "Takahara Hairi",
+    "japanese_name": "鷹原羽依里",
+    "age": 17,
+    "background": "transfers_to_island_after_grandmother_death",
+    "personality": ["kind", "adaptable", "nostalgic"],
+    "voice_actor": "none_silent_protagonist"
+  }
+}
