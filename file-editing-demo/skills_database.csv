@@ -1,0 +1,16 @@
+skill_name,element,type,power,accuracy,sp_cost,target,description,level_learned,rank,special_effects
+Bash,Physical,Attack,80,90,8,Single Enemy,Light physical damage to one foe,1,C,None
+Dia,Bless,Healing,50,100,4,Single Ally,Recovers small amount of HP to one ally,1,C,None
+Zio,Electric,Attack,80,95,6,Single Enemy,Light electric damage to one foe,2,C,Shock chance 10%
+Psi,Psychic,Attack,75,95,5,Single Enemy,Light psychic damage to one foe,2
+Media,Bless,Healing,60,100,12,All Allies,Recovers small amount of HP to all allies,5
+Garu,Wind,Attack,80,95,6,Single Enemy,Light wind damage to one foe,3
+Bufu,Ice,Attack,80,95,6,Single Enemy,Light ice damage to one foe,3
+Agi,Fire,Attack,80,95,6,Single Enemy,Light fire damage to one foe,3,C,Burn chance 15%
+Agilao,Fire,Attack,120,90,12,Single Enemy,Medium fire damage to one foe,8,B,Burn chance 25%
+Agidyne,Fire,Attack,180,85,22,Single Enemy,Heavy fire damage to one foe,15,A,Burn chance 40%
+Cleave,Physical,Attack,130,85,13,Single Enemy,Medium physical damage to one foe,4,B,High critical rate
+Tarukaja,Support,Buff,0,100,8,Single Ally,Raises Attack for 3 turns,6,C,Stackable
+Megido,Almighty,Attack,100,100,15,All Enemies,Moderate almighty damage to all foes,10,B,Pierces resistances
+Salvation,Bless,Healing,0,100,48,All Allies,Fully restores HP and cures all ailments,25,S,Master healing
+Morn Star,Almighty,Attack,300,95,54,All Enemies,Severe almighty damage to all foes,35,SS,Ultimate attack
