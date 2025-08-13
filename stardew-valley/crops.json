@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "created": "2025-08-14",
+    "version": "1.0.0",
+    "theme": "Stardew Valley Farming Simulator",
+    "description": "Comprehensive crop database with seasonal farming data for testing scenarios"
+  },
+  "seasons": {
+    "spring": {
+      "crops": [
+        {
+          "id": "parsnip",
+          "name": "Parsnip",
+          "seed_price": 20,
+          "sell_price": 35,
+          "growth_days": 4,
+          "regrows": false,
+          "quality_multipliers": {
+            "normal": 1.0,
+            "silver": 1.25,
+            "gold": 1.5,
+            "iridium": 2.0
+          },
+          "profit_per_day": 3.75,
+          "difficulty": "beginner"
+        },
+        {
+          "id": "cauliflower",
+          "name": "Cauliflower",
+          "seed_price": 80,
+          "sell_price": 175,
+          "growth_days": 12,
+          "regrows": false,
+          "quality_multipliers": {
+            "normal": 1.0,
+            "silver": 1.25,
+            "gold": 1.5,
+            "iridium": 2.0
+          },
+          "profit_per_day": 7.92,
+          "difficulty": "intermediate",
+          "giant_crop": true
+        },
+        {
+          "id": "coffee_bean",
+          "name": "Coffee Bean",
+          "seed_price": 2500,
+          "sell_price": 15,
+          "growth_days": 10,
+          "regrows": 2,
+          "seasons_active": ["spring", "summer"],
+          "quality_multipliers": {
+            "normal": 1.0,
+            "silver": 1.25,
+            "gold": 1.5,
+            "iridium": 2.0
+          },
+          "profit_per_day": 8.75,
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    "summer": {
+      "crops": [
+        {
+          "id": "tomato",
+          "name": "Tomato",
+          "seed_price": 50,
+          "sell_price": 60,
+          "growth_days": 11,
+          "regrows": 4,
+          "quality_multipliers": {
+            "normal": 1.0,
+            "silver": 1.25,
+            "gold": 1.5,
+            "iridium": 2.0
+          },
+          "profit_per_day": 4.09,
+          "difficulty": "intermediate"
+        },
+        {
+          "id": "blueberry",
+          "name": "Blueberry",
+          "seed_price": 80,
+          "sell_price": 50,
+          "growth_days": 13,
+          "regrows": 4,
+          "quality_multipliers": {
+            "normal": 1.0,
+            "silver": 1.25,
+            "gold": 1.5,
+            "iridium": 2.0
+          },
+          "profit_per_day": 8.85,
+          "difficulty": "advanced",
+          "artisan_products": ["blueberry_wine", "blueberry_jam"]
+        },
+        {
+          "id": "starfruit",
+          "name": "Starfruit",
+          "seed_price": 400,
+          "sell_price": 750,
+          "growth_days": 13,
+          "regrows": false,
+          "quality_multipliers": {
+            "normal": 1.0,
+            "silver": 1.25,
+            "gold": 1.5,
+            "iridium": 2.0
+          },
+          "profit_per_day": 26.92,
+          "difficulty": "expert",
+          "artisan_products": ["starfruit_wine"],
+          "desert_only": true
+        }
+      ]
+    },
+    "fall": {
+      "crops": [
+        {
+          "id": "pumpkin",
+          "name": "Pumpkin",
+          "seed_price": 100,
+          "sell_price": 320,
+          "growth_days": 13,
+          "regrows": false,
+          "quality_multipliers": {
+            "normal": 1.0,
+            "silver": 1.25,
+            "gold": 1.5,
+            "iridium": 2.0
+          },
+          "profit_per_day": 16.92,
+          "difficulty": "intermediate",
+          "giant_crop": true
+        },
+        {
+          "id": "cranberries",
+          "name": "Cranberries",
+          "seed_price": 240,
+          "sell_price": 75,
+          "growth_days": 7,
+          "regrows": 5,
+          "quality_multipliers": {
+            "normal": 1.0,
+            "silver": 1.25,
+            "gold": 1.5,
+            "iridium": 2.0
+          },
+          "profit_per_day": 23.08,
+          "difficulty": "advanced",
+          "artisan_products": ["cranberry_wine", "cranberry_jam"]
+        },
+        {
+          "id": "sweet_gem_berry",
+          "name": "Sweet Gem Berry",
+          "seed_price": 1000,
+          "sell_price": 3000,
+          "growth_days": 24,
+          "regrows": false,
+          "quality_multipliers": {
+            "normal": 1.0,
+            "silver": 1.25,
+            "gold": 1.5,
+            "iridium": 2.0
+          },
+          "profit_per_day": 83.33,
+          "difficulty": "legendary",
+          "rare_seed": true,
+          "special_vendor": "traveling_cart"
+        }
+      ]
+    },
+    "winter": {
+      "crops": [
+        {
+          "id": "winter_seeds",
+          "name": "Winter Seeds",
+          "seed_price": 30,
+          "sell_price_range": [90, 130],
+          "growth_days": 7,
+          "regrows": false,
+          "forageable": true,
+          "quality_multipliers": {
+            "normal": 1.0,
+            "silver": 1.25,
+            "gold": 1.5,
+            "iridium": 2.0
+          },
+          "profit_per_day": 14.29,
+          "difficulty": "advanced",
+          "description": "Mixed forageable items"
+        }
+      ],
+      "greenhouse_available": true,
+      "description": "Limited outdoor crops, greenhouse farming recommended"
+    }
+  },
+  "fertilizers": [
+    {
+      "name": "Basic Fertilizer",
+      "effect": "Increases crop quality chance",
+      "quality_boost": 0.1,
+      "cost": 100
+    },
+    {
+      "name": "Quality Fertilizer",
+      "effect": "Significantly increases crop quality chance",
+      "quality_boost": 0.25,
+      "cost": 300
+    },
+    {
+      "name": "Speed-Gro",
+      "effect": "Crops grow 10% faster",
+      "growth_speed_multiplier": 0.9,
+      "cost": 100
+    },
+    {
+      "name": "Deluxe Speed-Gro",
+      "effect": "Crops grow 25% faster",
+      "growth_speed_multiplier": 0.75,
+      "cost": 300
+    }
+  ],
+  "farming_stats": {
+    "total_crops": 12,
+    "seasonal_breakdown": {
+      "spring": 3,
+      "summer": 3,
+      "fall": 3,
+      "winter": 1
+    },
+    "difficulty_levels": {
+      "beginner": 1,
+      "intermediate": 3,
+      "advanced": 4,
+      "expert": 1,
+      "legendary": 1
+    },
+    "special_features": {
+      "giant_crops": 2,
+      "regrowable_crops": 4,
+      "artisan_compatible": 3,
+      "desert_exclusive": 1
+    }
+  }
+}
