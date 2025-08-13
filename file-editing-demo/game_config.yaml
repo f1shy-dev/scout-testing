@@ -1,0 +1,79 @@
+game_settings:
+  difficulty: Hard
+  auto_save: true
+  battle_animations: true
+  text_speed: 4
+  language: English
+  voice_acting: Japanese
+  subtitle_language: English
+  ui_scale: 1.2
+  fullscreen: true
+  vsync: true
+
+progression:
+  max_level: 99
+  exp_modifier: 1.0
+  money_modifier: 1.0
+
+battle_system:
+  turn_based: true
+  max_party_size: 4
+  weakness_damage_multiplier: 1.5
+  critical_damage_multiplier: 2.0
+
+social_links:
+  enabled: true
+  max_daily_interactions: 4
+  bonus_points_weekend: true
+  rank_up_requirements:
+    - points_needed: [0, 3, 6, 12, 18, 27, 36, 48, 60, 75, 90]
+  special_events:
+    - name: "School Festival"
+      bonus_multiplier: 2.0
+      duration_days: 3
+    - name: "Summer Vacation"
+      bonus_multiplier: 1.5
+      duration_days: 30
+  relationship_decay:
+    enabled: false
+    decay_rate: 0.1
+
+velvet_room:
+  fusion_available: true
+  compendium_enabled: true
+  special_fusion_unlocked: false
+
+calendar:
+  total_days: 365
+  current_day: 45
+  current_season: Spring
+  time_progression: manual
+  weather_system:
+    enabled: true
+    affects_activities: true
+    seasonal_events: true
+  important_dates:
+    - date: 100
+      event: "Midterm Exams"
+      restrictions: ["no_social_links", "study_bonus"]
+    - date: 200
+      event: "School Trip"
+      special_personas_available: true
+    - date: 300
+      event: "Final Boss Preparation"
+      all_areas_unlocked: true
+
+performance_settings:
+  max_fps: 120
+  render_distance: High
+  shadow_quality: Ultra
+  texture_quality: High
+  anti_aliasing: 8x
+  motion_blur: false
+
+debug_options:
+  enabled: false
+  console_commands: false
+  infinite_sp: false
+  max_money: false
+  unlock_all_personas: false

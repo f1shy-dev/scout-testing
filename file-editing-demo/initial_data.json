@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "created": "2025-08-13",
+    "last_modified": "2025-08-13T10:30:00Z",
+    "version": "2.1.0",
+    "purpose": "Demonstrate Scout's advanced file editing capabilities",
+    "theme": "Persona RPG System",
+    "author": "Scout AI",
+    "edit_count": 15,
+    "complexity_level": "Advanced"
+  },
+  "personas": [
+    {
+      "id": "001",
+      "name": "Orpheus",
+      "arcana": "Fool",
+      "level": 1,
+      "stats": {
+        "strength": 12,
+        "magic": 18,
+        "endurance": 14,
+        "agility": 16,
+        "luck": 10
+      },
+      "skills": ["Bash", "Dia"],
+      "resistances": {
+        "physical": "normal",
+        "fire": "weak",
+        "ice": "normal",
+        "electric": "normal",
+        "wind": "normal",
+        "psychic": "strong",
+        "nuclear": "normal",
+        "bless": "strong",
+        "curse": "weak"
+      },
+      "fusion_requirements": "Initial Persona"
+    },
+    {
+      "id": "002", 
+      "name": "Pixie",
+      "arcana": "Lovers",
+      "level": 2,
+      "stats": {
+        "strength": 6,
+        "magic": 15,
+        "endurance": 8,
+        "agility": 14,
+        "luck": 12
+      },
+      "skills": ["Zio", "Psi"],
+      "resistances": {
+        "physical": "normal",
+        "fire": "normal",
+        "ice": "normal",
+        "electric": "strong",
+        "wind": "weak",
+        "psychic": "normal",
+        "nuclear": "normal",
+        "bless": "normal",
+        "curse": "normal"
+      },
+      "fusion_requirements": "Base Persona"
+    },
+    {
+      "id": "003",
+      "name": "Jack Frost",
+      "arcana": "Magician",
+      "level": 5,
+      "stats": {
+        "strength": 8,
+        "magic": 20,
+        "endurance": 12,
+        "agility": 15,
+        "luck": 14
+      },
+      "skills": ["Bufu", "Ice Break", "Mabufu"],
+      "resistances": {
+        "physical": "normal",
+        "fire": "weak",
+        "ice": "absorb",
+        "electric": "normal",
+        "wind": "normal",
+        "psychic": "normal",
+        "nuclear": "normal",
+        "bless": "normal",
+        "curse": "normal"
+      },
+      "fusion_requirements": "Pixie + Orpheus",
+      "special_abilities": ["Ice immunity", "Hee-ho dialogue"]
+    },
+    {
+      "id": "004",
+      "name": "Arsène",
+      "arcana": "Fool",
+      "level": 7,
+      "stats": {
+        "strength": 16,
+        "magic": 22,
+        "endurance": 18,
+        "agility": 20,
+        "luck": 12
+      },
+      "skills": ["Cleave", "Sukunda", "Dream Needle"],
+      "resistances": {
+        "physical": "normal",
+        "fire": "normal",
+        "ice": "normal",
+        "electric": "normal",
+        "wind": "normal",
+        "psychic": "normal",
+        "nuclear": "normal",
+        "bless": "weak",
+        "curse": "strong"
+      },
+      "fusion_requirements": "Advanced fusion",
+      "special_abilities": ["Phantom Thief heritage", "Rebellion boost"]
+    }
+  ],
+  "social_links": [
+    {
+      "character": "Igor",
+      "arcana": "Fool",
+      "max_rank": 22,
+      "current_rank": 5,
+      "relationship_type": "Velvet Room Master",
+      "bond_points": 45,
+      "next_rank_requirement": 75
+    },
+    {
+      "character": "Yukari Takeba",
+      "arcana": "Lovers",
+      "max_rank": 10,
+      "current_rank": 3,
+      "relationship_type": "Party Member",
+      "bond_points": 18,
+      "next_rank_requirement": 27,
+      "availability": ["Monday", "Wednesday", "Friday"]
+    },
+    {
+      "character": "Junpei Iori",
+      "arcana": "Magician",
+      "max_rank": 10,
+      "current_rank": 4,
+      "relationship_type": "Best Friend",
+      "bond_points": 32,
+      "next_rank_requirement": 48,
+      "special_events_unlocked": ["Beach Trip", "Movie Night"]
+    }
+  ],
+  "battle_records": {
+    "total_battles": 127,
+    "victories": 122,
+    "defeats": 5,
+    "boss_battles_won": 8,
+    "perfect_battles": 34,
+    "total_damage_dealt": 45780,
+    "total_healing_done": 12450
+  },
+  "exploration_data": {
+    "floors_explored": 23,
+    "treasure_chests_found": 67,
+    "rare_shadows_encountered": 12,
+    "secret_areas_discovered": 5,
+    "total_exploration_time": "15h 32m"
+  }
+}
