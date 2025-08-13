@@ -1,0 +1,360 @@
+{
+  "metadata": {
+    "created": "2025-08-14",
+    "version": "1.0.0",
+    "theme": "Stardew Valley Seasonal Events",
+    "description": "Complete calendar of festivals, events, and seasonal activities"
+  },
+  "calendar_system": {
+    "days_per_season": 28,
+    "seasons_per_year": 4,
+    "total_days_per_year": 112,
+    "seasons": ["spring", "summer", "fall", "winter"]
+  },
+  "festivals": {
+    "spring": [
+      {
+        "name": "Egg Festival",
+        "date": "Spring 13",
+        "time": "9:00 AM - 2:00 PM",
+        "location": "Pelican Town Square",
+        "description": "Annual egg hunt competition and spring celebration",
+        "activities": [
+          "Egg Hunt Competition",
+          "Festival Shop (Strawberry Seeds, Decorations)",
+          "Social interactions with villagers"
+        ],
+        "rewards": {
+          "egg_hunt_winner": "Prize varies by year",
+          "strawberry_seeds": {
+            "price": 100,
+            "quantity": "unlimited",
+            "note": "Only available during festival"
+          }
+        },
+        "special_dialogue": true,
+        "attendance_required": false,
+        "weather_independent": true
+      }
+    ],
+    "summer": [
+      {
+        "name": "Luau",
+        "date": "Summer 11",
+        "time": "9:00 AM - 2:00 PM", 
+        "location": "Beach",
+        "description": "Community potluck with the Governor's visit",
+        "activities": [
+          "Potluck Soup Contribution",
+          "Governor's Reaction Event",
+          "Beach socializing",
+          "Swimming activities"
+        ],
+        "contribution_system": {
+          "loved_items": [
+            "Gold Star Vegetables",
+            "Gold Star Fruits", 
+            "Cactus Fruit",
+            "Red Cabbage"
+          ],
+          "liked_items": [
+            "Most Vegetables",
+            "Most Fruits",
+            "Cooked Dishes"
+          ],
+          "disliked_items": [
+            "Fish",
+            "Foraged Items",
+            "Low Quality Items"
+          ],
+          "hated_items": [
+            "Trash",
+            "Poisonous Mushrooms",
+            "Joja Cola"
+          ]
+        },
+        "governor_reactions": {
+          "excellent": "Best soup I've ever tasted!",
+          "good": "This soup is good!",
+          "neutral": "Hmm... interesting flavor.",
+          "bad": "I think I'll just have some bread.",
+          "terrible": "Blech! This is awful!"
+        },
+        "friendship_effects": true
+      },
+      {
+        "name": "Dance of the Moonlight Jellies",
+        "date": "Summer 28",
+        "time": "10:00 PM - 12:00 AM",
+        "location": "Beach",
+        "description": "Magical jellyfish migration viewing",
+        "activities": [
+          "Jellyfish Migration Spectacle",
+          "Romantic Boat Ride (if married)",
+          "Evening socializing"
+        ],
+        "special_features": [
+          "Unique nighttime event",
+          "Romantic cutscenes available",
+          "Beautiful visual spectacle",
+          "No competitive elements"
+        ],
+        "attendance_optional": true,
+        "romantic_event": true
+      }
+    ],
+    "fall": [
+      {
+        "name": "Stardew Valley Fair",
+        "date": "Fall 16",
+        "time": "9:00 AM - 3:00 PM",
+        "location": "Pelican Town Square",
+        "description": "Agricultural fair with grange display competition",
+        "activities": [
+          "Grange Display Competition",
+          "Fair Games and Attractions",
+          "Shopping with Star Tokens",
+          "Fortune Teller booth"
+        ],
+        "grange_display": {
+          "items_required": 9,
+          "categories_bonus": {
+            "animal_products": 5,
+            "artisan_goods": 5,
+            "cooking": 3,
+            "fish": 3,
+            "foraging": 3,
+            "fruits": 3,
+            "minerals": 3,
+            "vegetables": 3
+          },
+          "quality_bonus": {
+            "normal": 0,
+            "silver": 2,
+            "gold": 3,
+            "iridium": 5
+          },
+          "prizes": {
+            "1st_place": "1000 Star Tokens",
+            "2nd_place": "500 Star Tokens", 
+            "3rd_place": "250 Star Tokens",
+            "participation": "50 Star Tokens"
+          }
+        },
+        "fair_shop": [
+          {
+            "item": "Stardrop",
+            "cost": 2000,
+            "limit": 1,
+            "effect": "Permanent +34 max energy"
+          },
+          {
+            "item": "Rarecrow #1",
+            "cost": 800,
+            "limit": 1,
+            "effect": "Decorative scarecrow"
+          },
+          {
+            "item": "Fair Starburst",
+            "cost": 50,
+            "limit": "unlimited",
+            "effect": "Energy restoration"
+          }
+        ]
+      },
+      {
+        "name": "Spirit's Eve",
+        "date": "Fall 27",
+        "time": "10:00 PM - 11:50 PM",
+        "location": "Pelican Town Square",
+        "description": "Halloween celebration with haunted maze",
+        "activities": [
+          "Haunted Maze Challenge",
+          "Trick-or-Treating",
+          "Costume Contest",
+          "Jack-O-Lantern displays"
+        ],
+        "haunted_maze": {
+          "description": "Navigate through spooky maze to find the treasure",
+          "difficulty": "Medium",
+          "reward": "Golden Pumpkin",
+          "attempts": "unlimited",
+          "special_mechanics": "Dark visibility, jump scares"
+        },
+        "golden_pumpkin": {
+          "value": 2500,
+          "rarity": "legendary",
+          "uses": ["selling", "museum_donation", "decoration"]
+        },
+        "costumes": {
+          "available": true,
+          "npc_reactions": "Special dialogue based on outfit"
+        }
+      }
+    ],
+    "winter": [
+      {
+        "name": "Festival of Ice",
+        "date": "Winter 8",
+        "time": "10:00 AM - 2:00 PM",
+        "location": "Forest Pond (Cindersap Forest)",
+        "description": "Ice fishing competition and winter sports",
+        "activities": [
+          "Ice Fishing Contest",
+          "Ice Sculptures Viewing",
+          "Winter Sports Activities"
+        ],
+        "ice_fishing_contest": {
+          "duration": "2 hours game time",
+          "goal": "Catch the most fish",
+          "fish_types": "Any fish catchable in winter",
+          "prizes": {
+            "1st_place": "2000g",
+            "2nd_place": "1000g",
+            "3rd_place": "500g",
+            "participation": "Participation prize varies"
+          },
+          "strategy": "Bring bait and quality fishing rods"
+        },
+        "ice_sculptures": [
+          "Junimo sculpture by Robin",
+          "Fish sculpture by Willy", 
+          "Abstract art by Elliott",
+          "Seasonal displays by various villagers"
+        ]
+      },
+      {
+        "name": "Feast of the Winter Star",
+        "date": "Winter 25",
+        "time": "9:00 AM - 2:00 PM",
+        "location": "Pelican Town Square",
+        "description": "Gift exchange celebration and winter feast",
+        "activities": [
+          "Secret Santa Gift Exchange",
+          "Winter Feast Buffet",
+          "Holiday Decorations Viewing",
+          "Special Winter Star Tree"
+        ],
+        "gift_exchange": {
+          "system": "Secret Santa - you give and receive one gift",
+          "gift_giver": "Random villager assigned",
+          "gift_receiver": "Random villager assigned", 
+          "gift_suggestions": [
+            "Loved items for assigned person",
+            "Artisan goods",
+            "Cooked dishes",
+            "Valuable items"
+          ],
+          "received_gifts": "Varies by relationship level and RNG"
+        },
+        "winter_star_tree": {
+          "location": "Town Square Center",
+          "decorations": "Community decorated",
+          "significance": "Symbol of community unity"
+        },
+        "feast_items": [
+          "Stuffing",
+          "Cranberry Sauce", 
+          "Roasted Hazelnuts",
+          "Winter Root Ale",
+          "Holiday Cookie"
+        ]
+      }
+    ]
+  },
+  "special_events": {
+    "cutscenes": [
+      {
+        "name": "Community Center Restoration Complete",
+        "trigger": "Complete all bundles",
+        "location": "Community Center",
+        "description": "Celebration of Community Center revival",
+        "rewards": ["Friendship points with all villagers", "Community unity"],
+        "permanent_changes": ["Community Center fully restored", "Joja Mart closes"]
+      },
+      {
+        "name": "JojaMart Route Complete", 
+        "trigger": "Purchase all community upgrades via Joja",
+        "location": "Joja Mart",
+        "description": "Corporate development completion ceremony",
+        "rewards": ["All community upgrades", "Morris appreciation"],
+        "permanent_changes": ["Community Center remains ruined", "Corporate development complete"]
+      }
+    ],
+    "weather_events": [
+      {
+        "name": "Lightning Storm",
+        "seasons": ["summer"],
+        "frequency": "random_chance",
+        "effects": [
+          "Lightning rods collect Battery Packs",
+          "Crops can be struck (rare)",
+          "Dramatic weather visuals"
+        ],
+        "preparation": "Place Lightning Rods strategically"
+      },
+      {
+        "name": "Fairy Visit",
+        "seasons": ["all"],
+        "frequency": "very_rare",
+        "effects": [
+          "Random crops instantly grow to full maturity",
+          "Magical fairy dust visuals",
+          "Luck bonus next day"
+        ],
+        "trigger": "Random chance, higher with high luck"
+      },
+      {
+        "name": "Witch Visit",
+        "seasons": ["all"],
+        "frequency": "rare", 
+        "effects": [
+          "Void Egg appears in coop",
+          "Some machines may be disrupted",
+          "Spooky atmosphere"
+        ],
+        "trigger": "Random chance during night"
+      }
+    ]
+  },
+  "seasonal_mechanics": {
+    "spring": {
+      "weather_patterns": ["sunny", "rainy"],
+      "unique_features": ["Crop planting season", "Foraging abundance"],
+      "fishing_changes": "Spring fish become available",
+      "energy_costs": "Standard energy consumption"
+    },
+    "summer": {
+      "weather_patterns": ["sunny", "storm"],
+      "unique_features": ["Lightning storms", "Beach activities"],
+      "fishing_changes": "Summer fish replace spring varieties",
+      "energy_costs": "Heat may affect energy slightly"
+    },
+    "fall": {
+      "weather_patterns": ["sunny", "rainy", "windy"],
+      "unique_features": ["Harvest season", "Mushroom foraging"],
+      "fishing_changes": "Fall fish become available",
+      "energy_costs": "Comfortable weather, standard costs"
+    },
+    "winter": {
+      "weather_patterns": ["snowy", "blizzard"],
+      "unique_features": ["No outdoor crop growth", "Ice fishing"],
+      "fishing_changes": "Winter fish only, ice fishing mechanics",
+      "energy_costs": "Cold weather increases energy costs slightly"
+    }
+  },
+  "statistics": {
+    "total_festivals": 8,
+    "seasonal_distribution": {
+      "spring": 1,
+      "summer": 2,
+      "fall": 2, 
+      "winter": 2
+    },
+    "competitive_events": 4,
+    "social_events": 4,
+    "night_events": 2,
+    "special_rewards": 12,
+    "unique_items_available": 8
+  }
+}

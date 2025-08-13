@@ -1,0 +1,365 @@
+metadata:
+  created: "2025-08-14"
+  version: "1.0.0"
+  theme: "Stardew Valley Items Database"
+  description: "Comprehensive item database with crafting recipes and economic data"
+
+categories:
+  crops:
+    description: "Farmable plants and their produce"
+    seasonal: true
+    categories:
+      - spring_crops
+      - summer_crops
+      - fall_crops
+      - forage_crops
+
+  artisan_goods:
+    description: "Processed items from raw materials"
+    processing_time: varies
+    profit_multiplier: high
+    items:
+      - name: "Mayonnaise"
+        recipe: "Egg → Mayonnaise Machine → 3h 20m"
+        base_value: 200
+        quality_scaling: true
+        ingredients:
+          - type: "Egg"
+            quantity: 1
+      - name: "Cheese"
+        recipe: "Milk → Cheese Press → 3h 20m"
+        base_value: 400
+        quality_scaling: true
+        ingredients:
+          - type: "Milk"
+            quantity: 1
+      - name: "Wine"
+        recipe: "Fruit → Keg → 7 days"
+        base_value_multiplier: 3.0
+        aging_possible: true
+        quality_scaling: true
+        aging_time:
+          silver: "14 days"
+          gold: "28 days" 
+          iridium: "56 days"
+        ingredients:
+          - type: "Any Fruit"
+            quantity: 1
+      - name: "Pale Ale"
+        recipe: "Hops → Keg → 1-2 days"
+        base_value: 300
+        aging_possible: true
+        ingredients:
+          - type: "Hops"
+            quantity: 1
+
+  mining:
+    description: "Ores, gems, and materials from mines"
+    locations:
+      - "The Mines (Levels 1-120)"
+      - "Skull Cavern (Desert)"
+      - "Volcano Dungeon (Ginger Island)"
+    materials:
+      ores:
+        - name: "Copper Ore"
+          sell_price: 5
+          smelting_time: "30 minutes"
+          smelted_product: "Copper Bar"
+          smelted_value: 60
+          fuel_required: 1
+        - name: "Iron Ore"
+          sell_price: 10
+          smelting_time: "2 hours"
+          smelted_product: "Iron Bar"
+          smelted_value: 120
+          fuel_required: 1
+        - name: "Gold Ore"
+          sell_price: 25
+          smelting_time: "5 hours"
+          smelted_product: "Gold Bar"
+          smelted_value: 250
+          fuel_required: 1
+        - name: "Iridium Ore"
+          sell_price: 100
+          smelting_time: "8 hours"
+          smelted_product: "Iridium Bar"
+          smelted_value: 1000
+          fuel_required: 5
+      gems:
+        - name: "Amethyst"
+          sell_price: 100
+          rarity: common
+          universally_loved: false
+        - name: "Diamond"
+          sell_price: 750
+          rarity: rare
+          universally_loved: true
+        - name: "Prismatic Shard"
+          sell_price: 2000
+          rarity: legendary
+          special_uses: ["Museum", "Galaxy Sword", "Enchanting"]
+
+  fishing:
+    description: "Fish and ocean/river resources"
+    seasons: all
+    locations:
+      ocean: "Beach, Ginger Island"
+      river: "Town River, Forest River"
+      lake: "Mountain Lake"
+      desert: "Desert Pond"
+    fish_data:
+      - name: "Carp"
+        location: "Mountain Lake, Sewers"
+        seasons: ["spring", "summer", "fall"]
+        time: "all_day"
+        weather: "any"
+        sell_price: 30
+        difficulty: 15
+      - name: "Salmon"
+        location: "River"
+        seasons: ["fall"]
+        time: "6am-7pm"
+        weather: "any"
+        sell_price: 75
+        difficulty: 50
+      - name: "Tuna"
+        location: "Ocean"
+        seasons: ["summer", "winter"]
+        time: "6am-7pm"
+        weather: "any"
+        sell_price: 100
+        difficulty: 70
+      - name: "Legend"
+        location: "Mountain Lake"
+        seasons: ["spring"]
+        time: "6am-8pm"
+        weather: "rainy"
+        sell_price: 5000
+        difficulty: 110
+        legendary: true
+        unique: true
+
+  foraging:
+    description: "Items found naturally in the world"
+    renewable: true
+    seasonal_availability: true
+    items:
+      spring:
+        - name: "Wild Horseradish"
+          sell_price: 50
+          energy: 25
+          health: 11
+        - name: "Daffodil"
+          sell_price: 30
+          energy: 25
+          health: 11
+        - name: "Leek"
+          sell_price: 60
+          energy: 50
+          health: 22
+        - name: "Dandelion"
+          sell_price: 40
+          energy: 25
+          health: 11
+      summer:
+        - name: "Grape"
+          sell_price: 80
+          energy: 75
+          health: 33
+        - name: "Spice Berry"
+          sell_price: 90
+          energy: 75
+          health: 33
+        - name: "Sweet Pea"
+          sell_price: 50
+          energy: 25
+          health: 11
+      fall:
+        - name: "Wild Plum"
+          sell_price: 80
+          energy: 75
+          health: 33
+        - name: "Hazelnut"
+          sell_price: 90
+          energy: 75
+          health: 33
+        - name: "Blackberry"
+          sell_price: 50
+          energy: 75
+          health: 33
+      winter:
+        - name: "Winter Root"
+          sell_price: 70
+          energy: 50
+          health: 22
+        - name: "Crystal Fruit"
+          sell_price: 150
+          energy: 75
+          health: 33
+        - name: "Snow Yam"
+          sell_price: 100
+          energy: 75
+          health: 33
+        - name: "Crocus"
+          sell_price: 60
+          energy: 25
+          health: 11
+
+crafting_recipes:
+  equipment:
+    - name: "Sprinkler"
+      category: "Farming"
+      materials:
+        - item: "Copper Bar"
+          quantity: 1
+        - item: "Iron Bar"
+          quantity: 1
+      unlock_condition: "Farming Level 2"
+      recipe_source: "Leveling"
+      function: "Waters 4 adjacent tiles daily"
+    
+    - name: "Quality Sprinkler"
+      category: "Farming"
+      materials:
+        - item: "Iron Bar"
+          quantity: 1
+        - item: "Gold Bar"
+          quantity: 1
+        - item: "Refined Quartz"
+          quantity: 1
+      unlock_condition: "Farming Level 6"
+      recipe_source: "Leveling"
+      function: "Waters 8 surrounding tiles daily"
+
+    - name: "Iridium Sprinkler"
+      category: "Farming"
+      materials:
+        - item: "Gold Bar"
+          quantity: 1
+        - item: "Iridium Bar"
+          quantity: 1
+        - item: "Battery Pack"
+          quantity: 1
+      unlock_condition: "Farming Level 9"
+      recipe_source: "Leveling"
+      function: "Waters 24 nearby tiles daily"
+
+  artisan_machines:
+    - name: "Mayonnaise Machine"
+      category: "Artisan Equipment"
+      materials:
+        - item: "Wood"
+          quantity: 15
+        - item: "Stone"
+          quantity: 15
+        - item: "Earth Crystal"
+          quantity: 1
+        - item: "Copper Bar"
+          quantity: 1
+      unlock_condition: "Farming Level 2"
+      recipe_source: "Leveling"
+      function: "Processes eggs into mayonnaise"
+
+    - name: "Cheese Press"
+      category: "Artisan Equipment"
+      materials:
+        - item: "Wood"
+          quantity: 45
+        - item: "Stone"
+          quantity: 45
+        - item: "Hardwood"
+          quantity: 10
+        - item: "Copper Bar"
+          quantity: 1
+      unlock_condition: "Farming Level 6"
+      recipe_source: "Leveling"
+      function: "Processes milk into cheese"
+
+    - name: "Keg"
+      category: "Artisan Equipment"
+      materials:
+        - item: "Wood"
+          quantity: 30
+        - item: "Copper Bar"
+          quantity: 1
+        - item: "Iron Bar"
+          quantity: 1
+        - item: "Oak Resin"
+          quantity: 1
+      unlock_condition: "Farming Level 8"
+      recipe_source: "Leveling"
+      function: "Processes fruits and vegetables into wine/juice"
+
+economic_data:
+  market_trends:
+    high_value_items:
+      - "Ancient Fruit Wine (Iridium)"
+      - "Starfruit Wine (Iridium)"
+      - "Truffle Oil"
+      - "Caviar"
+      - "Aged Goat Cheese"
+    
+    best_profit_margins:
+      - crop: "Ancient Fruit"
+        base_value: 550
+        wine_value: 1650
+        aged_wine_value: 3300
+        profit_multiplier: 6.0
+        season: "all_seasons_greenhouse"
+      
+      - crop: "Starfruit"
+        base_value: 750
+        wine_value: 2250
+        aged_wine_value: 4500
+        profit_multiplier: 6.0
+        season: "summer_desert_greenhouse"
+
+  bundle_requirements:
+    community_center:
+      - bundle_name: "Spring Crops Bundle"
+        items_required:
+          - "Parsnip"
+          - "Green Bean"
+          - "Cauliflower"
+          - "Potato"
+        reward: "20 Speed-Gro"
+      
+      - bundle_name: "Summer Crops Bundle"
+        items_required:
+          - "Tomato"
+          - "Blueberry"
+          - "Hot Pepper"
+          - quality_crop: true
+        reward: "Quality Sprinkler"
+      
+      - bundle_name: "Artisan Bundle"
+        items_required:
+          - "Truffle Oil"
+          - "Cloth"
+          - "Goat Cheese"
+          - "Cheese"
+          - "Honey"
+          - "Jelly"
+          - "Apple"
+          - "Apricot"
+          - "Orange"
+          - "Peach"
+          - "Pomegranate"
+          - "Cherry"
+        reward: "Keg"
+
+statistics:
+  total_items: 150
+  craftable_items: 85
+  artisan_goods: 25
+  crops: 35
+  fish_species: 83
+  forageable_items: 28
+  mining_materials: 53
+  
+  rarity_distribution:
+    common: 75
+    uncommon: 35
+    rare: 25
+    very_rare: 10
+    legendary: 5
